@@ -80,5 +80,3 @@ class P300Test:
                 break
             self.play_tone(freq)
 
-        # DO NOT call pygame.quit() here if the main app still needs pygame.
-        # The main script can do a global pygame.quit() upon full exit if needed.
